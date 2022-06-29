@@ -43,7 +43,6 @@ public class YelpDAO {
 			return result ;
 			
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			return null;
 		}
@@ -63,7 +62,6 @@ public class YelpDAO {
 			conn.close();
 			return stars ;
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			return 0 ;
 		}
